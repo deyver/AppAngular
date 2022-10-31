@@ -1,7 +1,13 @@
 <div class="container main-container">
     <h3>Interpolation</h3>
-    <p> O número de cliques é: {{contadorClique}}</p>
+    <!-- <p> O número de cliques é: {{contadorClique}}</p> -->
 
+    <p [ngClass]="{
+        'text-secondary' :contadorClique < 3,
+        'text-success': contadorClique >= 3,
+        'text-warning': contadorClique >= 5,
+        'text-danger': contadorClique >= 9
+    }"> O número de cliques é: {{contadorClique}}</p>
     <br>
     <br>
 
@@ -21,8 +27,13 @@
     <label>Seu nome é: {{ nome }}</label> -->
 
     
-    <input type="text" [ngModel]="nome" (ngModelChange)='nome = $event' placeholder="Digite seu nome">
+    <!-- <input type="text" [ngModel]="nome" (ngModelChange)='nome = $event' placeholder="Digite seu nome">
     <br><br>
-    <label>Seu nome é: {{ nome }}</label>
+    <label>Seu nome é: {{ nome }}</label> -->
+
+        
+    <input type="text" [(ngModel)]="nome" placeholder="Digite seu nome">
+    <br><br>
+    <label [ngClass]="nome">Seu nome é: {{ nome }}</label>
 
 </div>

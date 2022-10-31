@@ -6,11 +6,4 @@ import { Component, OnInit } from '@angular/core';
   styles: [
   ]
 })
-export class SobreComponent implements OnInit {
-
-  constructor() { }
-
-  ngOnInit(): void {
-  }
-
-}
+export class SobreComponent  {}
