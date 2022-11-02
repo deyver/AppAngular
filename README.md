@@ -1,3 +1,13 @@
+--------------------------------------------- ################### ---------------------------------------------------
+
+                                            Como Startar a Aplicação : 
+
+1 - Rodar o comando  `ng s` no prompt ou terminal do VS Code para startar o servidor.
+
+2 - Rodar o comando `npx json-server --watch produtos.json` no prompt como administrador para rodar o backend fake.
+
+--------------------------------------------- ################### ---------------------------------------------------
+
 # AppAngular
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.7.
@@ -25,3 +35,5 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+
