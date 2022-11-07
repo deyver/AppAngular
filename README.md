@@ -4,7 +4,7 @@
 
 1 - Rodar o comando  `ng s` no prompt ou terminal do VS Code para startar o servidor.
 
-2 - Rodar o comando `npx json-server --watch produtos.json` no prompt como administrador para rodar o backend fake.
+2 - Rodar o comando `npx json-server --watch produtos.json` no prompt como administrador para rodar o backend fake, dentro do diretório do projeto aonde contém o arquivo produtos.json.
 
 --------------------------------------------- ################### ---------------------------------------------------
 
